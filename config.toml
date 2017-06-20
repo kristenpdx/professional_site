@@ -1,0 +1,80 @@
+baseurl             = "https://kristenpdx.github.io/" # Must end with /
+languageCode        = "en-us"
+title               = "Kristen Martin"
+theme               = "introduction"
+# enforce_ssl         = "your-url.com"
+builddrafts         = false
+canonifyurls        = true
+contentdir          = "content"
+layoutdir           = "layouts"
+publishdir          = "public"
+# disqusshortname   = "xxx" # Enable Disqus for comments
+# googleAnalytics   = "xxx"
+
+[permalinks]
+fixed = ":title/"
+blog  = "blog/:slug/"
+
+[params]
+author        = "Kristen Martin" # Full name shows on blog post pages
+firstname     = "Kristen" # First name shows in introduction on main page
+tagline       = "software tester / documenter / analyst" # Appears after the introduction
+introheight   = "medium" # Input either 'medium' or 'large' or 'fullheight'
+theme         = "light" # Choose 'light' or 'dark'
+avatar        = "img/profile_pic.jpg" # Path to image in static folder eg. img/avatar.png 
+email         = "" # Shows in contact section, or leave blank to omit
+# localtime     = true # Show your current local time in contact section
+timezone      = "America/Los_Angeles" # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+dateform      = "Jan 2, 2006"
+dateformfull  = "Mon Jan 2 2006 15:04:05 EST"
+cachebuster   = true # Add the current unix timestamp in query string for cache busting css assets
+description   = "Kristen Martin | Experience and Portfolio"
+faviconfile   = "img/favicon.ico"
+highlightjs   = true # Syntax highlighting
+lang          = "en"
+footertext    = "" # Text to show in footer (overrides default text)
+fadein        = true # Turn on/off the fade-in effect
+location      = "Portland, Ore."
+
+showblog        = false # Show Blog section on home page
+showallposts    = false # Set 'true' to list all posts on home page, or set 'false' to link to separate blog list page
+showlatest      = true # Show latest blog post summary
+sharebuttons    = true # On post pages, show share this social buttons
+
+showprojects    = true # Show Projects section on home page
+
+# This is your projects section. Three images of the same dimensions will look the nicest. If images are omitted, text links will be shown.
+project1link    = "docs/QA-testing-guide.pdf"
+project1img     = "img/pdf_book_teal.png"
+project1title   = "QA Procedure"
+
+project2link    = "docs/Software-Design-Document.pdf"
+project2img     = "img/pdf_book_teal.png"
+project2title   = "Software Design Document"
+
+project3link    = "docs/Software-User-Guide-1.pdf"
+project3img     = "img/pdf_book_teal.png"
+project3title   = "Software User Guide"
+
+project4link    = "docs/conference-abstract-1.pdf"
+project4img     = "img/pdf_book_teal.png"
+project4title   = "Tech Conference Abstract #1"
+
+project5link    = "docs/conference-abstract-2.pdf"
+project5img     = "img/pdf_book_teal.png"
+project5title   = "Tech Conference Abstract #2"
+
+# Social icons appear in introduction and contact section. Add as many more as you like.
+# Find icon names here: http://fontawesome.io/cheatsheet/
+
+[[params.social]]
+url = "https://linkedin.com/kristenmartin503/"
+icon = "linkedin"
+
+[[params.social]]
+url = "https://techdiscoveriesblog.wordpress.com/"
+icon = "wordpress"
+
+[[params.social]]
+url = "mailto:kristenmartin503@yahoo.com"
+icon = "envelope"
