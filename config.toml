@@ -68,7 +68,7 @@ project5title   = "Tech Conference Abstract #2"
 # Find icon names here: http://fontawesome.io/cheatsheet/
 
 [[params.social]]
-url = "https://linkedin.com/kristenmartin503/"
+url = "https://linkedin.com/in/kristenmartin503/"
 icon = "linkedin"
 
 [[params.social]]
