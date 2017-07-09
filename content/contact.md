@@ -5,4 +5,4 @@ draft = false
 
 +++
 
-Connect with me via LinkedIn, Wordpress, or email.
+Connect with me via LinkedIn or email, or view some of my work on Wordpress or GitHub.

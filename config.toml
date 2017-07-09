@@ -64,6 +64,10 @@ project5link    = "docs/conference-abstract-2.pdf"
 project5img     = "img/pdf_book_teal.png"
 project5title   = "Tech Conference Abstract #2"
 
+project6link    = "docs/WTD_documentation_lessons_generic.pdf"
+project6img     = "img/pdf_book_teal.png"
+project6title   = "Write the Docs 2017 Summary"
+
 # Social icons appear in introduction and contact section. Add as many more as you like.
 # Find icon names here: http://fontawesome.io/cheatsheet/
 
@@ -78,3 +82,7 @@ icon = "wordpress"
 [[params.social]]
 url = "mailto:kristenmartin503@yahoo.com"
 icon = "envelope"
+
+[[params.social]]
+url = "https://github.com/kristenpdx"
+icon = "github"
