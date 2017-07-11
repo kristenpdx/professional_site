@@ -21,7 +21,7 @@ firstname     = "Kristen" # First name shows in introduction on main page
 tagline       = "software tester / documenter / analyst" # Appears after the introduction
 introheight   = "medium" # Input either 'medium' or 'large' or 'fullheight'
 theme         = "light" # Choose 'light' or 'dark'
-avatar        = "img/profile_pic.jpg" # Path to image in static folder eg. img/avatar.png 
+avatar        = "img/headshot.jpg" # Path to image in static folder eg. img/avatar.png 
 email         = "" # Shows in contact section, or leave blank to omit
 # localtime     = true # Show your current local time in contact section
 timezone      = "America/Los_Angeles" # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -44,29 +44,32 @@ sharebuttons    = true # On post pages, show share this social buttons
 showprojects    = true # Show Projects section on home page
 
 # This is your projects section. Three images of the same dimensions will look the nicest. If images are omitted, text links will be shown.
-project1link    = "docs/QA-testing-guide.pdf"
-project1img     = "img/pdf_book_teal.png"
-project1title   = "QA Procedure"
 
-project2link    = "docs/Software-Design-Document.pdf"
+
+project1link    = "docs/WTD_documentation_lessons_generic.pdf"
+project1img     = "img/pdf_book_teal.png"
+project1title   = "Write the Docs 2017 Summary"
+
+project2link    = "docs/QA-testing-guide.pdf"
 project2img     = "img/pdf_book_teal.png"
-project2title   = "Software Design Document"
+project2title   = "QA Procedure"
 
 project3link    = "docs/Software-User-Guide-1.pdf"
 project3img     = "img/pdf_book_teal.png"
 project3title   = "Software User Guide"
 
-project4link    = "docs/conference-abstract-1.pdf"
+project4link    = "docs/Software-Design-Document.pdf"
 project4img     = "img/pdf_book_teal.png"
-project4title   = "Tech Conference Abstract #1"
+project4title   = "Software Design Document"
 
-project5link    = "docs/conference-abstract-2.pdf"
+project5link    = "docs/conference-abstract-1.pdf"
 project5img     = "img/pdf_book_teal.png"
-project5title   = "Tech Conference Abstract #2"
+project5title   = "Tech Conference Abstract #1"
 
-project6link    = "docs/WTD_documentation_lessons_generic.pdf"
+project6link    = "docs/conference-abstract-2.pdf"
 project6img     = "img/pdf_book_teal.png"
-project6title   = "Write the Docs 2017 Summary"
+project6title   = "Tech Conference Abstract #2"
+
 
 # Social icons appear in introduction and contact section. Add as many more as you like.
 # Find icon names here: http://fontawesome.io/cheatsheet/
